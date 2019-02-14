@@ -1,9 +1,23 @@
 # Ignore thumbnails created by windows
 Thumbs.db
 
-# Ignore files build by Visual Studio
+# Ignore folder
+.vs/
+obj/
+
+!/1336OS_Code/bin
+!/1336OS_Code/build
+!/1336OS_Code/decoda
+/1336OS_Code/lib
+!/1336OS_Code/media
+!/1336OS_Code/premake
+!/1336OS_Code/src/
+!/1336OS_Code/tools/
+
+/1336OS_Code/bin/*/*/*.exe
+
+# Ignore files
 *.obj
-*.exe
 *.pdb
 *.aps
 *.vcproj.*.user
@@ -22,32 +36,11 @@ Thumbs.db
 *.cache
 *.ilk
 *.log
-[Bb]in
-[Dd]ebug/
-[Dd]ebug.win32/
 *.sbr
 *.sdf
-obj/
-[Rr]elease/
-[Rr]elease.win32/
-_ReSharper*/
-[Tt]est[Rr]esult*
-ipch/
 *.opensdf
 *.opendb
-SubmissionInfo
-Generated Files
-AppPackages
-BundleArtifacts
-.vs/
 *.VC.db
+*.tmp
 
-# Ignore folder
-!/1336OS_Code/bin
-!/1336OS_Code/build
-!/1336OS_Code/decoda
-/1336OS_Code/lib
-!/1336OS_Code/media
-!/1336OS_Code/premake
-!/1336OS_Code/src/
-!/1336OS_Code/tools/
+
