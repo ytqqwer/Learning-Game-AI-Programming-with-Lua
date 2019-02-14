@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\half">
+      <UniqueIdentifier>{33FFDB69-1F62-6B0E-C8E7-A3C4B4293791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\iex">
+      <UniqueIdentifier>{FEDDC031-6A93-3927-F387-33FE5F3C302B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ilmimf">
+      <UniqueIdentifier>{B675F553-A243-E959-8BD7-59807744C5BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\ilmthread">
+      <UniqueIdentifier>{72B5B725-DECB-B5BB-2743-41DD93988643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\imath">
+      <UniqueIdentifier>{0B6674A5-7726-F0DB-4061-3959ACE034B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\half">
+      <UniqueIdentifier>{57E130CF-43AE-8BDA-6CC7-798258F3C068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\iex">
+      <UniqueIdentifier>{A20B30A9-0EEB-AE44-1703-3A1B836115A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ilmimf">
+      <UniqueIdentifier>{DA700B62-C628-4DAF-2F30-260B1B07E89F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ilmthread">
+      <UniqueIdentifier>{168E6381-824E-DFB7-4B89-2835B7082494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\imath">
+      <UniqueIdentifier>{AF8C65B5-1BF7-192C-6435-CBD1D0DEF780}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\openexr\include\IlmBaseConfig.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\OpenEXRConfig.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\half\eLut.h">
+      <Filter>include\half</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\half\half.h">
+      <Filter>include\half</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\half\halfFunction.h">
+      <Filter>include\half</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\half\halfLimits.h">
+      <Filter>include\half</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\half\toFloat.h">
+      <Filter>include\half</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\iex\Iex.h">
+      <Filter>include\iex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\iex\IexBaseExc.h">
+      <Filter>include\iex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\iex\IexErrnoExc.h">
+      <Filter>include\iex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\iex\IexMacros.h">
+      <Filter>include\iex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\iex\IexMathExc.h">
+      <Filter>include\iex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\iex\IexThrowErrnoExc.h">
+      <Filter>include\iex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfAcesFile.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfArray.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfAttribute.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfAutoArray.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfB44Compressor.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfBoxAttribute.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfCRgbaFile.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfChannelList.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfChannelListAttribute.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfCheckedArithmetic.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfChromaticities.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfChromaticitiesAttribute.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfCompression.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfCompressionAttribute.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfCompressor.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfConvert.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfDoubleAttribute.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfEnvmap.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfEnvmapAttribute.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfFloatAttribute.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfFrameBuffer.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfFramesPerSecond.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfHeader.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfHuf.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfIO.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfInputFile.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfInt64.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfIntAttribute.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfKeyCode.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfKeyCodeAttribute.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfLineOrder.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfLineOrderAttribute.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfLut.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfMatrixAttribute.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfMisc.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfMultiView.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfName.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfOpaqueAttribute.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfOutputFile.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfPixelType.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfPizCompressor.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfPreviewImage.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfPreviewImageAttribute.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfPxr24Compressor.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfRational.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfRationalAttribute.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfRgba.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfRgbaFile.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfRgbaYca.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfRleCompressor.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfScanLineInputFile.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfStandardAttributes.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfStdIO.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfStringAttribute.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfStringVectorAttribute.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfTestFile.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfThreading.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfTileDescription.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfTileDescriptionAttribute.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfTileOffsets.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfTiledInputFile.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfTiledMisc.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfTiledOutputFile.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfTiledRgbaFile.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfTimeCode.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfTimeCodeAttribute.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfVecAttribute.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfVersion.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfWav.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfXdr.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\ImfZipCompressor.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmimf\b44ExpLogTable.h">
+      <Filter>include\ilmimf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmthread\IlmThread.h">
+      <Filter>include\ilmthread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmthread\IlmThreadMutex.h">
+      <Filter>include\ilmthread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmthread\IlmThreadPool.h">
+      <Filter>include\ilmthread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\ilmthread\IlmThreadSemaphore.h">
+      <Filter>include\ilmthread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\imath\ImathBox.h">
+      <Filter>include\imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\imath\ImathBoxAlgo.h">
+      <Filter>include\imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\imath\ImathColor.h">
+      <Filter>include\imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\imath\ImathColorAlgo.h">
+      <Filter>include\imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\imath\ImathEuler.h">
+      <Filter>include\imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\imath\ImathExc.h">
+      <Filter>include\imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\imath\ImathFrame.h">
+      <Filter>include\imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\imath\ImathFrustum.h">
+      <Filter>include\imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\imath\ImathFrustumTest.h">
+      <Filter>include\imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\imath\ImathFun.h">
+      <Filter>include\imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\imath\ImathGL.h">
+      <Filter>include\imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\imath\ImathGLU.h">
+      <Filter>include\imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\imath\ImathHalfLimits.h">
+      <Filter>include\imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\imath\ImathInt64.h">
+      <Filter>include\imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\imath\ImathInterval.h">
+      <Filter>include\imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\imath\ImathLimits.h">
+      <Filter>include\imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\imath\ImathLine.h">
+      <Filter>include\imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\imath\ImathLineAlgo.h">
+      <Filter>include\imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\imath\ImathMath.h">
+      <Filter>include\imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\imath\ImathMatrix.h">
+      <Filter>include\imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\imath\ImathMatrixAlgo.h">
+      <Filter>include\imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\imath\ImathPlane.h">
+      <Filter>include\imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\imath\ImathPlatform.h">
+      <Filter>include\imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\imath\ImathQuat.h">
+      <Filter>include\imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\imath\ImathRandom.h">
+      <Filter>include\imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\imath\ImathRoots.h">
+      <Filter>include\imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\imath\ImathShear.h">
+      <Filter>include\imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\imath\ImathSphere.h">
+      <Filter>include\imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\imath\ImathVec.h">
+      <Filter>include\imath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\openexr\include\imath\ImathVecAlgo.h">
+      <Filter>include\imath</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\openexr\src\half\half.cpp">
+      <Filter>src\half</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\iex\IexBaseExc.cpp">
+      <Filter>src\iex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\iex\IexThrowErrnoExc.cpp">
+      <Filter>src\iex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfAcesFile.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfAttribute.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfB44Compressor.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfBoxAttribute.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfCRgbaFile.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfChannelList.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfChannelListAttribute.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfChromaticities.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfChromaticitiesAttribute.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfCompressionAttribute.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfCompressor.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfConvert.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfDoubleAttribute.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfEnvmap.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfEnvmapAttribute.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfFloatAttribute.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfFrameBuffer.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfFramesPerSecond.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfHeader.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfHuf.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfIO.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfInputFile.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfIntAttribute.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfKeyCode.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfKeyCodeAttribute.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfLineOrderAttribute.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfLut.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfMatrixAttribute.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfMisc.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfMultiView.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfOpaqueAttribute.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfOutputFile.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfPizCompressor.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfPreviewImage.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfPreviewImageAttribute.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfPxr24Compressor.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfRational.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfRationalAttribute.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfRgbaFile.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfRgbaYca.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfRleCompressor.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfScanLineInputFile.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfStandardAttributes.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfStdIO.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfStringAttribute.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfStringVectorAttribute.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfTestFile.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfThreading.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfTileDescriptionAttribute.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfTileOffsets.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfTiledInputFile.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfTiledMisc.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfTiledOutputFile.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfTiledRgbaFile.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfTimeCode.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfTimeCodeAttribute.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfVecAttribute.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfVersion.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfWav.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmimf\ImfZipCompressor.cpp">
+      <Filter>src\ilmimf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmthread\IlmThread.cpp">
+      <Filter>src\ilmthread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmthread\IlmThreadMutex.cpp">
+      <Filter>src\ilmthread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmthread\IlmThreadPool.cpp">
+      <Filter>src\ilmthread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\ilmthread\IlmThreadSemaphore.cpp">
+      <Filter>src\ilmthread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\imath\ImathBox.cpp">
+      <Filter>src\imath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\imath\ImathColorAlgo.cpp">
+      <Filter>src\imath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\imath\ImathFun.cpp">
+      <Filter>src\imath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\imath\ImathMatrixAlgo.cpp">
+      <Filter>src\imath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\imath\ImathRandom.cpp">
+      <Filter>src\imath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\imath\ImathShear.cpp">
+      <Filter>src\imath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\openexr\src\imath\ImathVec.cpp">
+      <Filter>src\imath</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

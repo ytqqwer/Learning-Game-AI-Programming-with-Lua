@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="script">
+      <UniqueIdentifier>{BA0F601B-A6B1-8AF1-8F6C-9E457BAD1142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\src\chapter_3_animation\script\AnimationState.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\chapter_3_animation\script\AnimationStateMachine.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\chapter_3_animation\script\AnimationTransition.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\chapter_3_animation\script\AnimationUtilities.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\chapter_3_animation\script\Sandbox.lua">
+      <Filter>script</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\chapter_3_animation\include\DemoAnimation.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\chapter_3_animation\src\DemoAnimation.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\chapter_3_animation\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

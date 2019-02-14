@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="script">
+      <UniqueIdentifier>{BA0F601B-A6B1-8AF1-8F6C-9E457BAD1142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\src\chapter_2_movement\script\AgentUtilities.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\chapter_2_movement\script\FollowerAgent.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\chapter_2_movement\script\PathingAgent.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\chapter_2_movement\script\PursuingAgent.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\chapter_2_movement\script\Sandbox.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\chapter_2_movement\script\SeekingAgent.lua">
+      <Filter>script</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\chapter_2_movement\include\DemoMovement.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\chapter_2_movement\src\DemoMovement.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\chapter_2_movement\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

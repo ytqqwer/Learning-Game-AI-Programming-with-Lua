@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F9CF1928-E587-5B75-4E8F-34D13A66F665}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>my_sandbox</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\..\bin\x32\debug\</OutDir>
+    <IntDir>obj\x32\Debug\</IntDir>
+    <TargetName>my_sandbox</TargetName>
+    <TargetExt>.exe</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\..\bin\x64\debug\</OutDir>
+    <IntDir>obj\x64\Debug\</IntDir>
+    <TargetName>my_sandbox</TargetName>
+    <TargetExt>.exe</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\..\bin\x32\release\</OutDir>
+    <IntDir>obj\x32\Release\</IntDir>
+    <TargetName>my_sandbox</TargetName>
+    <TargetExt>.exe</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\..\bin\x64\release\</OutDir>
+    <IntDir>obj\x64\Release\</IntDir>
+    <TargetName>my_sandbox</TargetName>
+    <TargetExt>.exe</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <AdditionalIncludeDirectories>..\..\..\src\my_sandbox\include;..\..\..\src;..\..\..\src\bullet_collision\include;..\..\..\src\bullet_dynamics\include;..\..\..\src\bullet_linearmath\include;..\..\..\src\demo_framework\include;..\..\..\src\ois\include;..\..\..\src\ogre3d\include;..\..\..\src\ogre3d_direct3d9\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)my_sandbox.pdb</ProgramDataBaseFileName>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/Zm256 /I "$(DXSDK_DIR)/Include/" %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\..\src\my_sandbox\include;..\..\..\src;..\..\..\src\bullet_collision\include;..\..\..\src\bullet_dynamics\include;..\..\..\src\bullet_linearmath\include;..\..\..\src\demo_framework\include;..\..\..\src\ois\include;..\..\..\src\ogre3d\include;..\..\..\src\ogre3d_direct3d9\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>..\..\..\lib\x32\debug\bullet_collision.lib;..\..\..\lib\x32\debug\bullet_dynamics.lib;..\..\..\lib\x32\debug\bullet_linearmath.lib;..\..\..\lib\x32\debug\demo_framework.lib;..\..\..\lib\x32\debug\detour.lib;..\..\..\lib\x32\debug\freeimage.lib;..\..\..\lib\x32\debug\freetype.lib;..\..\..\lib\x32\debug\gorilla_audio.lib;..\..\..\lib\x32\debug\libjpeg.lib;..\..\..\lib\x32\debug\libogg.lib;..\..\..\lib\x32\debug\libopenjpeg.lib;..\..\..\lib\x32\debug\libpng.lib;..\..\..\lib\x32\debug\libraw.lib;..\..\..\lib\x32\debug\libtiff4.lib;..\..\..\lib\x32\debug\libvorbis.lib;..\..\..\lib\x32\debug\lua.lib;..\..\..\lib\x32\debug\ogre3d.lib;..\..\..\lib\x32\debug\ogre3d_direct3d9.lib;..\..\..\lib\x32\debug\ogre3d_gorilla.lib;..\..\..\lib\x32\debug\ogre3d_particlefx.lib;..\..\..\lib\x32\debug\ogre3d_procedural.lib;..\..\..\lib\x32\debug\ois.lib;..\..\..\lib\x32\debug\openexr.lib;..\..\..\lib\x32\debug\opensteer.lib;..\..\..\lib\x32\debug\recast.lib;..\..\..\lib\x32\debug\zlib.lib;..\..\..\lib\x32\debug\zzip.lib;d3d9.lib;dinput8.lib;dxguid.lib;d3dx9.lib;DxErr.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\lib\x32\debug;..\..\..\premake\"..\build\projects\ogre3d\obj\x32\Debug";"$(DXSDK_DIR)\Lib\x86";%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <AdditionalOptions>/WX- /MACHINE:X86 OgreWin32Resources.res %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <AdditionalIncludeDirectories>..\..\..\src\my_sandbox\include;..\..\..\src;..\..\..\src\bullet_collision\include;..\..\..\src\bullet_dynamics\include;..\..\..\src\bullet_linearmath\include;..\..\..\src\demo_framework\include;..\..\..\src\ois\include;..\..\..\src\ogre3d\include;..\..\..\src\ogre3d_direct3d9\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)my_sandbox.pdb</ProgramDataBaseFileName>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/Zm256 /I "$(DXSDK_DIR)/Include/" %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\..\src\my_sandbox\include;..\..\..\src;..\..\..\src\bullet_collision\include;..\..\..\src\bullet_dynamics\include;..\..\..\src\bullet_linearmath\include;..\..\..\src\demo_framework\include;..\..\..\src\ois\include;..\..\..\src\ogre3d\include;..\..\..\src\ogre3d_direct3d9\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>..\..\..\lib\x64\debug\bullet_collision.lib;..\..\..\lib\x64\debug\bullet_dynamics.lib;..\..\..\lib\x64\debug\bullet_linearmath.lib;..\..\..\lib\x64\debug\demo_framework.lib;..\..\..\lib\x64\debug\detour.lib;..\..\..\lib\x64\debug\freeimage.lib;..\..\..\lib\x64\debug\freetype.lib;..\..\..\lib\x64\debug\gorilla_audio.lib;..\..\..\lib\x64\debug\libjpeg.lib;..\..\..\lib\x64\debug\libogg.lib;..\..\..\lib\x64\debug\libopenjpeg.lib;..\..\..\lib\x64\debug\libpng.lib;..\..\..\lib\x64\debug\libraw.lib;..\..\..\lib\x64\debug\libtiff4.lib;..\..\..\lib\x64\debug\libvorbis.lib;..\..\..\lib\x64\debug\lua.lib;..\..\..\lib\x64\debug\ogre3d.lib;..\..\..\lib\x64\debug\ogre3d_direct3d9.lib;..\..\..\lib\x64\debug\ogre3d_gorilla.lib;..\..\..\lib\x64\debug\ogre3d_particlefx.lib;..\..\..\lib\x64\debug\ogre3d_procedural.lib;..\..\..\lib\x64\debug\ois.lib;..\..\..\lib\x64\debug\openexr.lib;..\..\..\lib\x64\debug\opensteer.lib;..\..\..\lib\x64\debug\recast.lib;..\..\..\lib\x64\debug\zlib.lib;..\..\..\lib\x64\debug\zzip.lib;d3d9.lib;dinput8.lib;dxguid.lib;d3dx9.lib;DxErr.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\lib\x64\debug;..\..\..\premake\"..\build\projects\ogre3d\obj\x64\Debug";"$(DXSDK_DIR)\Lib\x64";%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <AdditionalOptions>/WX- /MACHINE:X64 OgreWin32Resources.res %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\src\my_sandbox\include;..\..\..\src;..\..\..\src\bullet_collision\include;..\..\..\src\bullet_dynamics\include;..\..\..\src\bullet_linearmath\include;..\..\..\src\demo_framework\include;..\..\..\src\ois\include;..\..\..\src\ogre3d\include;..\..\..\src\ogre3d_direct3d9\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)my_sandbox.pdb</ProgramDataBaseFileName>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/Zm256 /I "$(DXSDK_DIR)/Include/" %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\src\my_sandbox\include;..\..\..\src;..\..\..\src\bullet_collision\include;..\..\..\src\bullet_dynamics\include;..\..\..\src\bullet_linearmath\include;..\..\..\src\demo_framework\include;..\..\..\src\ois\include;..\..\..\src\ogre3d\include;..\..\..\src\ogre3d_direct3d9\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>..\..\..\lib\x32\release\bullet_collision.lib;..\..\..\lib\x32\release\bullet_dynamics.lib;..\..\..\lib\x32\release\bullet_linearmath.lib;..\..\..\lib\x32\release\demo_framework.lib;..\..\..\lib\x32\release\detour.lib;..\..\..\lib\x32\release\freeimage.lib;..\..\..\lib\x32\release\freetype.lib;..\..\..\lib\x32\release\gorilla_audio.lib;..\..\..\lib\x32\release\libjpeg.lib;..\..\..\lib\x32\release\libogg.lib;..\..\..\lib\x32\release\libopenjpeg.lib;..\..\..\lib\x32\release\libpng.lib;..\..\..\lib\x32\release\libraw.lib;..\..\..\lib\x32\release\libtiff4.lib;..\..\..\lib\x32\release\libvorbis.lib;..\..\..\lib\x32\release\lua.lib;..\..\..\lib\x32\release\ogre3d.lib;..\..\..\lib\x32\release\ogre3d_direct3d9.lib;..\..\..\lib\x32\release\ogre3d_gorilla.lib;..\..\..\lib\x32\release\ogre3d_particlefx.lib;..\..\..\lib\x32\release\ogre3d_procedural.lib;..\..\..\lib\x32\release\ois.lib;..\..\..\lib\x32\release\openexr.lib;..\..\..\lib\x32\release\opensteer.lib;..\..\..\lib\x32\release\recast.lib;..\..\..\lib\x32\release\zlib.lib;..\..\..\lib\x32\release\zzip.lib;d3d9.lib;dinput8.lib;dxguid.lib;d3dx9.lib;DxErr.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\lib\x32\release;..\..\..\premake\"..\build\projects\ogre3d\obj\x32\Release";"$(DXSDK_DIR)\Lib\x86";%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <AdditionalOptions>/WX- /MACHINE:X86 OgreWin32Resources.res %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\src\my_sandbox\include;..\..\..\src;..\..\..\src\bullet_collision\include;..\..\..\src\bullet_dynamics\include;..\..\..\src\bullet_linearmath\include;..\..\..\src\demo_framework\include;..\..\..\src\ois\include;..\..\..\src\ogre3d\include;..\..\..\src\ogre3d_direct3d9\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)my_sandbox.pdb</ProgramDataBaseFileName>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/Zm256 /I "$(DXSDK_DIR)/Include/" %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\src\my_sandbox\include;..\..\..\src;..\..\..\src\bullet_collision\include;..\..\..\src\bullet_dynamics\include;..\..\..\src\bullet_linearmath\include;..\..\..\src\demo_framework\include;..\..\..\src\ois\include;..\..\..\src\ogre3d\include;..\..\..\src\ogre3d_direct3d9\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>..\..\..\lib\x64\release\bullet_collision.lib;..\..\..\lib\x64\release\bullet_dynamics.lib;..\..\..\lib\x64\release\bullet_linearmath.lib;..\..\..\lib\x64\release\demo_framework.lib;..\..\..\lib\x64\release\detour.lib;..\..\..\lib\x64\release\freeimage.lib;..\..\..\lib\x64\release\freetype.lib;..\..\..\lib\x64\release\gorilla_audio.lib;..\..\..\lib\x64\release\libjpeg.lib;..\..\..\lib\x64\release\libogg.lib;..\..\..\lib\x64\release\libopenjpeg.lib;..\..\..\lib\x64\release\libpng.lib;..\..\..\lib\x64\release\libraw.lib;..\..\..\lib\x64\release\libtiff4.lib;..\..\..\lib\x64\release\libvorbis.lib;..\..\..\lib\x64\release\lua.lib;..\..\..\lib\x64\release\ogre3d.lib;..\..\..\lib\x64\release\ogre3d_direct3d9.lib;..\..\..\lib\x64\release\ogre3d_gorilla.lib;..\..\..\lib\x64\release\ogre3d_particlefx.lib;..\..\..\lib\x64\release\ogre3d_procedural.lib;..\..\..\lib\x64\release\ois.lib;..\..\..\lib\x64\release\openexr.lib;..\..\..\lib\x64\release\opensteer.lib;..\..\..\lib\x64\release\recast.lib;..\..\..\lib\x64\release\zlib.lib;..\..\..\lib\x64\release\zzip.lib;d3d9.lib;dinput8.lib;dxguid.lib;d3dx9.lib;DxErr.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\..\lib\x64\release;..\..\..\premake\"..\build\projects\ogre3d\obj\x64\Release";"$(DXSDK_DIR)\Lib\x64";%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <AdditionalOptions>/WX- /MACHINE:X64 OgreWin32Resources.res %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\my_sandbox\include\MySandbox.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\my_sandbox\src\MySandbox.cpp" />
+    <ClCompile Include="..\..\..\src\my_sandbox\src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\bullet_collision\bullet_collision.vcxproj">
+      <Project>{D8FEC1BC-C4F7-E00E-ED29-C693D981C01A}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\bullet_dynamics\bullet_dynamics.vcxproj">
+      <Project>{8457D4B1-F0E2-4176-F9F3-C46A65FE9D76}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\bullet_linearmath\bullet_linearmath.vcxproj">
+      <Project>{11E86869-7DFE-66FF-C675-F22032CB3787}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\demo_framework\demo_framework.vcxproj">
+      <Project>{D768187C-C336-0C82-ACCA-7CA89837E8E6}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\detour\detour.vcxproj">
+      <Project>{381288F8-24B4-B2CE-0D6F-C622F9AF391F}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\freeimage\freeimage.vcxproj">
+      <Project>{6AD9FEE2-D643-B359-1F82-64FF8B2B91AE}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\freetype\freetype.vcxproj">
+      <Project>{89895BD8-7556-B6E3-9E6F-A48B8A9BEB71}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\gorilla_audio\gorilla_audio.vcxproj">
+      <Project>{609F2981-CC5F-A5B7-959A-EE34011AEA93}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\libjpeg\libjpeg.vcxproj">
+      <Project>{42546879-AE33-E714-B74B-72EB23AA4D76}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\libogg\libogg.vcxproj">
+      <Project>{99D86F0B-857A-9AE1-6E35-AE355A762132}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\libopenjpeg\libopenjpeg.vcxproj">
+      <Project>{34832080-A038-9975-292D-934C95E18F79}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\libpng\libpng.vcxproj">
+      <Project>{C1DD6F0B-AD7F-9AE1-963A-AE35827B2132}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\libraw\libraw.vcxproj">
+      <Project>{A6E46F0B-9286-9AE1-7B41-AE3567822132}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\libtiff4\libtiff4.vcxproj">
+      <Project>{39FF23A7-25CC-7EB2-4EE5-6C5A3A11B440}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\libvorbis\libvorbis.vcxproj">
+      <Project>{7155C190-DDBF-7507-26FE-26AD92A7535C}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\lua\lua.vcxproj">
+      <Project>{C78D880B-3397-887C-BC12-9F7C281B947C}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\ogre3d\ogre3d.vcxproj">
+      <Project>{49B65312-3558-7EE8-1E13-923C0A540539}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\ogre3d_direct3d9\ogre3d_direct3d9.vcxproj">
+      <Project>{D3462F68-BF3F-4EBA-E871-333FD4C92DC6}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\ogre3d_gorilla\ogre3d_gorilla.vcxproj">
+      <Project>{32557915-1E23-6D1B-07B7-DD41F3234980}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\ogre3d_particlefx\ogre3d_particlefx.vcxproj">
+      <Project>{5A95478A-C6AB-4520-0F23-D1417B7816A8}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\ogre3d_procedural\ogre3d_procedural.vcxproj">
+      <Project>{F92AEA5B-6541-E8F1-AEB8-73131A0EB979}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\ois\ois.vcxproj">
+      <Project>{1099880B-7CA2-887C-051E-9F7C7126947C}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\openexr\openexr.vcxproj">
+      <Project>{A675E370-1255-620C-1B6D-EDE287CBC86D}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\opensteer\opensteer.vcxproj">
+      <Project>{DA729238-46DD-46AF-8F1B-F854FBC42404}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\recast\recast.vcxproj">
+      <Project>{C7BC2619-B35E-51EF-9C19-6543885AD83F}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\zlib\zlib.vcxproj">
+      <Project>{16CFA17C-0206-A30D-ABF2-881097081F0F}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\zzip\zzip.vcxproj">
+      <Project>{B20AA27C-9E41-A30D-472E-891033441F0F}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

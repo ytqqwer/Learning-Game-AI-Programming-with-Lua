@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="script">
+      <UniqueIdentifier>{BA0F601B-A6B1-8AF1-8F6C-9E457BAD1142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\src\demo_framework\script\Action.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework\script\AgentCommunications.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework\script\AgentSenses.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework\script\AgentUtilities.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework\script\AnimationState.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework\script\AnimationStateMachine.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework\script\AnimationTransition.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework\script\AnimationUtilities.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework\script\BehaviorTree.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework\script\BehaviorTreeNode.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework\script\Blackboard.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework\script\DebugUtilities.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework\script\DecisionBranch.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework\script\DecisionTree.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework\script\DirectSoldierAgent.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework\script\Evaluator.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework\script\FiniteState.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework\script\FiniteStateMachine.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework\script\FiniteStateTransition.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework\script\GUI.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework\script\IndirectSoldierAgent.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework\script\KnowledgeSource.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework\script\Sandbox.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework\script\SandboxUtilities.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework\script\Soldier.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework\script\SoldierActions.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework\script\SoldierController.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework\script\SoldierEvaluators.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework\script\SoldierKnowledge.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework\script\SoldierLogic.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework\script\SoldierTactics.lua">
+      <Filter>script</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\demo_framework\include\Agent.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\AgentGroup.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\AgentPath.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\AgentUtilities.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\AnimationUtilities.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\BaseApplication.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\Collision.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\DebugDrawer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\Event.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\InfluenceMap.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\InfluenceMapDrawer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\InfluenceMapUtilities.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\LuaFile.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\LuaFileManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\LuaFilePtr.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\LuaFileSerializer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\LuaScriptBindings.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\LuaScriptUtilities.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\MeshUtilities.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\NavigationMesh.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\NavigationUtilities.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\ObfuscatedZip.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\Object.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\ParticleUtilities.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\PhysicsDebugDraw.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\PhysicsUtilities.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\PhysicsWorld.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\PrecompiledHeaders.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\Sandbox.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\SandboxApplication.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\SandboxObject.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\SandboxUtilities.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\SkeletonDebug.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\TriangleBoxIntersection.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\UserInterface.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\UserInterfaceComponent.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\demo_framework\include\UserInterfaceUtilities.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\demo_framework\src\Agent.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\AgentGroup.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\AgentPath.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\AgentUtilities.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\AnimationUtilities.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\BaseApplication.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\Collision.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\DebugDrawer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\Event.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\InfluenceMap.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\InfluenceMapDrawer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\InfluenceMapUtilities.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\LuaFile.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\LuaFileManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\LuaFilePtr.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\LuaFileSerializer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\LuaScriptBindings.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\LuaScriptUtilities.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\MeshUtilities.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\NavigationMesh.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\NavigationUtilities.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\ObfuscatedZip.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\Object.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\ParticleUtilities.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\PhysicsDebugDraw.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\PhysicsUtilities.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\PhysicsWorld.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\PrecompiledHeaders.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\Sandbox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\SandboxApplication.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\SandboxObject.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\SandboxUtilities.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\SkeletonDebug.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\TriangleBoxIntersection.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\UserInterface.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\UserInterfaceComponent.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\UserInterfaceUtilities.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

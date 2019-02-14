@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1099880B-7CA2-887C-051E-9F7C7126947C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ois</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\..\lib\x32\debug\</OutDir>
+    <IntDir>obj\x32\Debug\</IntDir>
+    <TargetName>ois</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\..\..\lib\x64\debug\</OutDir>
+    <IntDir>obj\x64\Debug\</IntDir>
+    <TargetName>ois</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\..\lib\x32\release\</OutDir>
+    <IntDir>obj\x32\Release\</IntDir>
+    <TargetName>ois</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\..\..\lib\x64\release\</OutDir>
+    <IntDir>obj\x64\Release\</IntDir>
+    <TargetName>ois</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <AdditionalIncludeDirectories>..\..\..\src\ois\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)ois.pdb</ProgramDataBaseFileName>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/wd"4512" /wd"4100" /wd"4189" /I "$(DXSDK_DIR)/Include/" %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\..\src\ois\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalOptions>/WX- /MACHINE:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <AdditionalIncludeDirectories>..\..\..\src\ois\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)ois.pdb</ProgramDataBaseFileName>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/wd"4512" /wd"4100" /wd"4189" /I "$(DXSDK_DIR)/Include/" %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\..\src\ois\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalOptions>/WX- /MACHINE:X64 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\src\ois\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)ois.pdb</ProgramDataBaseFileName>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/wd"4512" /wd"4100" /wd"4189" /I "$(DXSDK_DIR)/Include/" %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\src\ois\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalOptions>/WX- /MACHINE:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\src\ois\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)ois.pdb</ProgramDataBaseFileName>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/wd"4512" /wd"4100" /wd"4189" /I "$(DXSDK_DIR)/Include/" %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\src\ois\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalOptions>/WX- /MACHINE:X64 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\ois\include\OIS.h" />
+    <ClInclude Include="..\..\..\src\ois\include\OISConfig.h" />
+    <ClInclude Include="..\..\..\src\ois\include\OISEffect.h" />
+    <ClInclude Include="..\..\..\src\ois\include\OISEvents.h" />
+    <ClInclude Include="..\..\..\src\ois\include\OISException.h" />
+    <ClInclude Include="..\..\..\src\ois\include\OISFactoryCreator.h" />
+    <ClInclude Include="..\..\..\src\ois\include\OISForceFeedback.h" />
+    <ClInclude Include="..\..\..\src\ois\include\OISInputManager.h" />
+    <ClInclude Include="..\..\..\src\ois\include\OISInterface.h" />
+    <ClInclude Include="..\..\..\src\ois\include\OISJoyStick.h" />
+    <ClInclude Include="..\..\..\src\ois\include\OISKeyboard.h" />
+    <ClInclude Include="..\..\..\src\ois\include\OISMouse.h" />
+    <ClInclude Include="..\..\..\src\ois\include\OISMultiTouch.h" />
+    <ClInclude Include="..\..\..\src\ois\include\OISObject.h" />
+    <ClInclude Include="..\..\..\src\ois\include\OISPrereqs.h" />
+    <ClInclude Include="..\..\..\src\ois\include\iphone\iPhoneAccelerometer.h" />
+    <ClInclude Include="..\..\..\src\ois\include\iphone\iPhoneHelpers.h" />
+    <ClInclude Include="..\..\..\src\ois\include\iphone\iPhoneInputManager.h" />
+    <ClInclude Include="..\..\..\src\ois\include\iphone\iPhoneMultiTouch.h" />
+    <ClInclude Include="..\..\..\src\ois\include\iphone\iPhonePrereqs.h" />
+    <ClInclude Include="..\..\..\src\ois\include\linux\EventHelpers.h" />
+    <ClInclude Include="..\..\..\src\ois\include\linux\LinuxForceFeedback.h" />
+    <ClInclude Include="..\..\..\src\ois\include\linux\LinuxInputManager.h" />
+    <ClInclude Include="..\..\..\src\ois\include\linux\LinuxJoyStickEvents.h" />
+    <ClInclude Include="..\..\..\src\ois\include\linux\LinuxKeyboard.h" />
+    <ClInclude Include="..\..\..\src\ois\include\linux\LinuxMouse.h" />
+    <ClInclude Include="..\..\..\src\ois\include\linux\LinuxPrereqs.h" />
+    <ClInclude Include="..\..\..\src\ois\include\mac\MacHIDManager.h" />
+    <ClInclude Include="..\..\..\src\ois\include\mac\MacHelpers.h" />
+    <ClInclude Include="..\..\..\src\ois\include\mac\MacInputManager.h" />
+    <ClInclude Include="..\..\..\src\ois\include\mac\MacJoyStick.h" />
+    <ClInclude Include="..\..\..\src\ois\include\mac\MacKeyboard.h" />
+    <ClInclude Include="..\..\..\src\ois\include\mac\MacMouse.h" />
+    <ClInclude Include="..\..\..\src\ois\include\mac\MacPrereqs.h" />
+    <ClInclude Include="..\..\..\src\ois\include\win32\Win32ForceFeedback.h" />
+    <ClInclude Include="..\..\..\src\ois\include\win32\Win32InputManager.h" />
+    <ClInclude Include="..\..\..\src\ois\include\win32\Win32JoyStick.h" />
+    <ClInclude Include="..\..\..\src\ois\include\win32\Win32KeyBoard.h" />
+    <ClInclude Include="..\..\..\src\ois\include\win32\Win32Mouse.h" />
+    <ClInclude Include="..\..\..\src\ois\include\win32\Win32Prereqs.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\ois\src\OISEffect.cpp" />
+    <ClCompile Include="..\..\..\src\ois\src\OISException.cpp" />
+    <ClCompile Include="..\..\..\src\ois\src\OISForceFeedback.cpp" />
+    <ClCompile Include="..\..\..\src\ois\src\OISInputManager.cpp" />
+    <ClCompile Include="..\..\..\src\ois\src\OISJoyStick.cpp" />
+    <ClCompile Include="..\..\..\src\ois\src\OISKeyboard.cpp" />
+    <ClCompile Include="..\..\..\src\ois\src\OISObject.cpp" />
+    <ClCompile Include="..\..\..\src\ois\src\extras\LIRC\OISLIRC.cpp" />
+    <ClCompile Include="..\..\..\src\ois\src\extras\LIRC\OISLIRCFactoryCreator.cpp" />
+    <ClCompile Include="..\..\..\src\ois\src\linux\EventHelpers.cpp" />
+    <ClCompile Include="..\..\..\src\ois\src\linux\LinuxForceFeedback.cpp" />
+    <ClCompile Include="..\..\..\src\ois\src\linux\LinuxInputManager.cpp" />
+    <ClCompile Include="..\..\..\src\ois\src\linux\LinuxJoyStickEvents.cpp" />
+    <ClCompile Include="..\..\..\src\ois\src\linux\LinuxKeyboard.cpp" />
+    <ClCompile Include="..\..\..\src\ois\src\linux\LinuxMouse.cpp" />
+    <ClCompile Include="..\..\..\src\ois\src\mac\MacHIDManager.cpp" />
+    <ClCompile Include="..\..\..\src\ois\src\mac\MacHelpers.cpp" />
+    <ClCompile Include="..\..\..\src\ois\src\mac\MacInputManager.cpp" />
+    <ClCompile Include="..\..\..\src\ois\src\mac\MacJoyStick.cpp" />
+    <ClCompile Include="..\..\..\src\ois\src\mac\MacKeyboard.cpp" />
+    <ClCompile Include="..\..\..\src\ois\src\mac\MacMouse.cpp" />
+    <ClCompile Include="..\..\..\src\ois\src\win32\Win32ForceFeedback.cpp" />
+    <ClCompile Include="..\..\..\src\ois\src\win32\Win32InputManager.cpp" />
+    <ClCompile Include="..\..\..\src\ois\src\win32\Win32JoyStick.cpp" />
+    <ClCompile Include="..\..\..\src\ois\src\win32\Win32KeyBoard.cpp" />
+    <ClCompile Include="..\..\..\src\ois\src\win32\Win32Mouse.cpp" />
+    <ClCompile Include="..\..\..\src\ois\src\win32\extras\WiiMote\OISWiiMote.cpp" />
+    <ClCompile Include="..\..\..\src\ois\src\win32\extras\WiiMote\OISWiiMoteFactoryCreator.cpp" />
+    <ClCompile Include="..\..\..\src\ois\src\win32\extras\WiiMote\OISWiiMoteForceFeedback.cpp" />
+    <ClCompile Include="..\..\..\src\ois\src\win32\extras\WiiMote\OISWiiMoteRingBuffer.cpp" />
+    <ClCompile Include="..\..\..\src\ois\src\win32\extras\WiiMote\hiddevice.cpp" />
+    <ClCompile Include="..\..\..\src\ois\src\win32\extras\WiiMote\main.cpp" />
+    <ClCompile Include="..\..\..\src\ois\src\win32\extras\WiiMote\wiimote.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

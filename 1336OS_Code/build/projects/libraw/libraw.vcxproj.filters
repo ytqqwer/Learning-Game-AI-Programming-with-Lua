@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\internal">
+      <UniqueIdentifier>{F5DB2CD1-E1D4-4B23-0A07-31A8F65E2B2F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\libraw">
+      <UniqueIdentifier>{B9C2B85A-A590-AC60-8E24-1D877A9188C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\libraw\include\internal\defines.h">
+      <Filter>include\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libraw\include\internal\libraw_bytebuffer.h">
+      <Filter>include\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libraw\include\internal\libraw_internal_funcs.h">
+      <Filter>include\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libraw\include\internal\var_defines.h">
+      <Filter>include\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libraw\include\libraw\libraw.h">
+      <Filter>include\libraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libraw\include\libraw\libraw_alloc.h">
+      <Filter>include\libraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libraw\include\libraw\libraw_const.h">
+      <Filter>include\libraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libraw\include\libraw\libraw_datastream.h">
+      <Filter>include\libraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libraw\include\libraw\libraw_internal.h">
+      <Filter>include\libraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libraw\include\libraw\libraw_types.h">
+      <Filter>include\libraw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\libraw\include\libraw\libraw_version.h">
+      <Filter>include\libraw</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\libraw\src\dcraw_common.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libraw\src\dcraw_fileio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libraw\src\demosaic_packs.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libraw\src\libraw_c_api.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libraw\src\libraw_cxx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\libraw\src\libraw_datastream.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

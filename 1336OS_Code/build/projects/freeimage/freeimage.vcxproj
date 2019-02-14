@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6AD9FEE2-D643-B359-1F82-64FF8B2B91AE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>freeimage</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\..\lib\x32\debug\</OutDir>
+    <IntDir>obj\x32\Debug\</IntDir>
+    <TargetName>freeimage</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\..\..\lib\x64\debug\</OutDir>
+    <IntDir>obj\x64\Debug\</IntDir>
+    <TargetName>freeimage</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\..\lib\x32\release\</OutDir>
+    <IntDir>obj\x32\Release\</IntDir>
+    <TargetName>freeimage</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\..\..\lib\x64\release\</OutDir>
+    <IntDir>obj\x64\Release\</IntDir>
+    <TargetName>freeimage</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;FREEIMAGE_LIB;OPJ_STATIC;LIBRAW_NODLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\src\freeimage\include;..\..\..\src\libjpeg\include;..\..\..\src\libopenjpeg\include;..\..\..\src\libpng\include;..\..\..\src\libraw\include;..\..\..\src\libtiff4\include;..\..\..\src\openexr\include;..\..\..\src\openexr\include\half;..\..\..\src\openexr\include\iex;..\..\..\src\openexr\include\ilmimf;..\..\..\src\openexr\include\imath;..\..\..\src\openexr\include\ilmthread;..\..\..\src\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)freeimage.pdb</ProgramDataBaseFileName>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/wd"4100" /wd"4127" /wd"4189" /wd"4244" /wd"4611" /wd"4389" /wd"4324" /wd"4702" /wd"4701" /wd"4789" %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;FREEIMAGE_LIB;OPJ_STATIC;LIBRAW_NODLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\src\freeimage\include;..\..\..\src\libjpeg\include;..\..\..\src\libopenjpeg\include;..\..\..\src\libpng\include;..\..\..\src\libraw\include;..\..\..\src\libtiff4\include;..\..\..\src\openexr\include;..\..\..\src\openexr\include\half;..\..\..\src\openexr\include\iex;..\..\..\src\openexr\include\ilmimf;..\..\..\src\openexr\include\imath;..\..\..\src\openexr\include\ilmthread;..\..\..\src\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalOptions>/WX- /MACHINE:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;FREEIMAGE_LIB;OPJ_STATIC;LIBRAW_NODLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\src\freeimage\include;..\..\..\src\libjpeg\include;..\..\..\src\libopenjpeg\include;..\..\..\src\libpng\include;..\..\..\src\libraw\include;..\..\..\src\libtiff4\include;..\..\..\src\openexr\include;..\..\..\src\openexr\include\half;..\..\..\src\openexr\include\iex;..\..\..\src\openexr\include\ilmimf;..\..\..\src\openexr\include\imath;..\..\..\src\openexr\include\ilmthread;..\..\..\src\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)freeimage.pdb</ProgramDataBaseFileName>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/wd"4100" /wd"4127" /wd"4189" /wd"4244" /wd"4611" /wd"4389" /wd"4324" /wd"4702" /wd"4701" /wd"4789" %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;FREEIMAGE_LIB;OPJ_STATIC;LIBRAW_NODLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\src\freeimage\include;..\..\..\src\libjpeg\include;..\..\..\src\libopenjpeg\include;..\..\..\src\libpng\include;..\..\..\src\libraw\include;..\..\..\src\libtiff4\include;..\..\..\src\openexr\include;..\..\..\src\openexr\include\half;..\..\..\src\openexr\include\iex;..\..\..\src\openexr\include\ilmimf;..\..\..\src\openexr\include\imath;..\..\..\src\openexr\include\ilmthread;..\..\..\src\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalOptions>/WX- /MACHINE:X64 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_CRT_SECURE_NO_WARNINGS;FREEIMAGE_LIB;OPJ_STATIC;LIBRAW_NODLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\src\freeimage\include;..\..\..\src\libjpeg\include;..\..\..\src\libopenjpeg\include;..\..\..\src\libpng\include;..\..\..\src\libraw\include;..\..\..\src\libtiff4\include;..\..\..\src\openexr\include;..\..\..\src\openexr\include\half;..\..\..\src\openexr\include\iex;..\..\..\src\openexr\include\ilmimf;..\..\..\src\openexr\include\imath;..\..\..\src\openexr\include\ilmthread;..\..\..\src\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)freeimage.pdb</ProgramDataBaseFileName>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/wd"4100" /wd"4127" /wd"4189" /wd"4244" /wd"4611" /wd"4389" /wd"4324" /wd"4702" /wd"4701" /wd"4789" %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_CRT_SECURE_NO_WARNINGS;FREEIMAGE_LIB;OPJ_STATIC;LIBRAW_NODLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\src\freeimage\include;..\..\..\src\libjpeg\include;..\..\..\src\libopenjpeg\include;..\..\..\src\libpng\include;..\..\..\src\libraw\include;..\..\..\src\libtiff4\include;..\..\..\src\openexr\include;..\..\..\src\openexr\include\half;..\..\..\src\openexr\include\iex;..\..\..\src\openexr\include\ilmimf;..\..\..\src\openexr\include\imath;..\..\..\src\openexr\include\ilmthread;..\..\..\src\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalOptions>/WX- /MACHINE:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_CRT_SECURE_NO_WARNINGS;FREEIMAGE_LIB;OPJ_STATIC;LIBRAW_NODLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\src\freeimage\include;..\..\..\src\libjpeg\include;..\..\..\src\libopenjpeg\include;..\..\..\src\libpng\include;..\..\..\src\libraw\include;..\..\..\src\libtiff4\include;..\..\..\src\openexr\include;..\..\..\src\openexr\include\half;..\..\..\src\openexr\include\iex;..\..\..\src\openexr\include\ilmimf;..\..\..\src\openexr\include\imath;..\..\..\src\openexr\include\ilmthread;..\..\..\src\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)freeimage.pdb</ProgramDataBaseFileName>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/wd"4100" /wd"4127" /wd"4189" /wd"4244" /wd"4611" /wd"4389" /wd"4324" /wd"4702" /wd"4701" /wd"4789" %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_CRT_SECURE_NO_WARNINGS;FREEIMAGE_LIB;OPJ_STATIC;LIBRAW_NODLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\src\freeimage\include;..\..\..\src\libjpeg\include;..\..\..\src\libopenjpeg\include;..\..\..\src\libpng\include;..\..\..\src\libraw\include;..\..\..\src\libtiff4\include;..\..\..\src\openexr\include;..\..\..\src\openexr\include\half;..\..\..\src\openexr\include\iex;..\..\..\src\openexr\include\ilmimf;..\..\..\src\openexr\include\imath;..\..\..\src\openexr\include\ilmthread;..\..\..\src\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalOptions>/WX- /MACHINE:X64 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\freeimage\include\CacheFile.h" />
+    <ClInclude Include="..\..\..\src\freeimage\include\DeprecationMgr.h" />
+    <ClInclude Include="..\..\..\src\freeimage\include\FIRational.h" />
+    <ClInclude Include="..\..\..\src\freeimage\include\Filters.h" />
+    <ClInclude Include="..\..\..\src\freeimage\include\FreeImage.h" />
+    <ClInclude Include="..\..\..\src\freeimage\include\FreeImageIO.h" />
+    <ClInclude Include="..\..\..\src\freeimage\include\FreeImageTag.h" />
+    <ClInclude Include="..\..\..\src\freeimage\include\PSDParser.h" />
+    <ClInclude Include="..\..\..\src\freeimage\include\Plugin.h" />
+    <ClInclude Include="..\..\..\src\freeimage\include\Quantizers.h" />
+    <ClInclude Include="..\..\..\src\freeimage\include\Resize.h" />
+    <ClInclude Include="..\..\..\src\freeimage\include\ToneMapping.h" />
+    <ClInclude Include="..\..\..\src\freeimage\include\Utilities.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\freeimage\src\deprecationmanager\Deprecated.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\deprecationmanager\DeprecationMgr.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\BitmapAccess.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\CacheFile.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\ColorLookup.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\Conversion.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\Conversion16_555.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\Conversion16_565.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\Conversion24.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\Conversion32.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\Conversion4.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\Conversion8.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\ConversionFloat.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\ConversionRGB16.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\ConversionRGBF.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\ConversionType.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\ConversionUINT16.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\FreeImage.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\FreeImageIO.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\GetType.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\Halftoning.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\J2KHelper.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\MNGHelper.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\MemoryIO.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\MultiPage.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\NNQuantizer.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\PSDParser.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\PixelAccess.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\Plugin.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\PluginBMP.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\PluginCUT.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\PluginDDS.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\PluginEXR.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\PluginG3.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\PluginGIF.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\PluginHDR.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\PluginICO.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\PluginIFF.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\PluginJ2K.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\PluginJNG.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\PluginJP2.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\PluginJPEG.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\PluginKOALA.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\PluginMNG.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\PluginPCD.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\PluginPCX.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\PluginPFM.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\PluginPICT.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\PluginPNG.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\PluginPNM.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\PluginPSD.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\PluginRAS.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\PluginRAW.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\PluginSGI.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\PluginTARGA.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\PluginTIFF.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\PluginWBMP.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\PluginXBM.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\PluginXPM.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\TIFFLogLuv.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\ToneMapping.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\WuQuantizer.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\ZLibInterface.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\tmoColorConvert.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\tmoDrago03.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\tmoFattal02.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimage\tmoReinhard05.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimagetoolkit\BSplineRotate.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimagetoolkit\Background.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimagetoolkit\Channels.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimagetoolkit\ClassicRotate.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimagetoolkit\Colors.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimagetoolkit\CopyPaste.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimagetoolkit\Display.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimagetoolkit\Flip.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimagetoolkit\JPEGTransform.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimagetoolkit\MultigridPoissonSolver.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimagetoolkit\Rescale.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\freeimagetoolkit\Resize.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\metadata\Exif.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\metadata\FIRational.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\metadata\FreeImageTag.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\metadata\IPTC.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\metadata\TagConversion.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\metadata\TagLib.cpp" />
+    <ClCompile Include="..\..\..\src\freeimage\src\metadata\XTIFF.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

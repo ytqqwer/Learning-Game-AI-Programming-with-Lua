@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D768187C-C336-0C82-ACCA-7CA89837E8E6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>demo_framework</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\..\lib\x32\debug\</OutDir>
+    <IntDir>obj\x32\Debug\</IntDir>
+    <TargetName>demo_framework</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\..\..\lib\x64\debug\</OutDir>
+    <IntDir>obj\x64\Debug\</IntDir>
+    <TargetName>demo_framework</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\..\lib\x32\release\</OutDir>
+    <IntDir>obj\x32\Release\</IntDir>
+    <TargetName>demo_framework</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\..\..\lib\x64\release\</OutDir>
+    <IntDir>obj\x64\Release\</IntDir>
+    <TargetName>demo_framework</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>PrecompiledHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <AdditionalIncludeDirectories>..\..\..\src\demo_framework\include;..\..\..\src;..\..\..\src\bullet_collision\include;..\..\..\src\bullet_dynamics\include;..\..\..\src\bullet_linearmath\include;..\..\..\src\ois\include;..\..\..\src\ogre3d\include;..\..\..\src\ogre3d_direct3d9\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)demo_framework.pdb</ProgramDataBaseFileName>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/Zm256 /I "$(DXSDK_DIR)/Include/" %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\..\src\demo_framework\include;..\..\..\src;..\..\..\src\bullet_collision\include;..\..\..\src\bullet_dynamics\include;..\..\..\src\bullet_linearmath\include;..\..\..\src\ois\include;..\..\..\src\ogre3d\include;..\..\..\src\ogre3d_direct3d9\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalOptions>/WX- /MACHINE:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>PrecompiledHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <AdditionalIncludeDirectories>..\..\..\src\demo_framework\include;..\..\..\src;..\..\..\src\bullet_collision\include;..\..\..\src\bullet_dynamics\include;..\..\..\src\bullet_linearmath\include;..\..\..\src\ois\include;..\..\..\src\ogre3d\include;..\..\..\src\ogre3d_direct3d9\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)demo_framework.pdb</ProgramDataBaseFileName>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/Zm256 /I "$(DXSDK_DIR)/Include/" %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\..\src\demo_framework\include;..\..\..\src;..\..\..\src\bullet_collision\include;..\..\..\src\bullet_dynamics\include;..\..\..\src\bullet_linearmath\include;..\..\..\src\ois\include;..\..\..\src\ogre3d\include;..\..\..\src\ogre3d_direct3d9\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalOptions>/WX- /MACHINE:X64 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>PrecompiledHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\src\demo_framework\include;..\..\..\src;..\..\..\src\bullet_collision\include;..\..\..\src\bullet_dynamics\include;..\..\..\src\bullet_linearmath\include;..\..\..\src\ois\include;..\..\..\src\ogre3d\include;..\..\..\src\ogre3d_direct3d9\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)demo_framework.pdb</ProgramDataBaseFileName>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/Zm256 /I "$(DXSDK_DIR)/Include/" %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\src\demo_framework\include;..\..\..\src;..\..\..\src\bullet_collision\include;..\..\..\src\bullet_dynamics\include;..\..\..\src\bullet_linearmath\include;..\..\..\src\ois\include;..\..\..\src\ogre3d\include;..\..\..\src\ogre3d_direct3d9\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalOptions>/WX- /MACHINE:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>PrecompiledHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\src\demo_framework\include;..\..\..\src;..\..\..\src\bullet_collision\include;..\..\..\src\bullet_dynamics\include;..\..\..\src\bullet_linearmath\include;..\..\..\src\ois\include;..\..\..\src\ogre3d\include;..\..\..\src\ogre3d_direct3d9\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)demo_framework.pdb</ProgramDataBaseFileName>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/Zm256 /I "$(DXSDK_DIR)/Include/" %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\src\demo_framework\include;..\..\..\src;..\..\..\src\bullet_collision\include;..\..\..\src\bullet_dynamics\include;..\..\..\src\bullet_linearmath\include;..\..\..\src\ois\include;..\..\..\src\ogre3d\include;..\..\..\src\ogre3d_direct3d9\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalOptions>/WX- /MACHINE:X64 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\demo_framework\include\Agent.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\AgentGroup.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\AgentPath.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\AgentUtilities.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\AnimationUtilities.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\BaseApplication.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\Collision.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\DebugDrawer.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\Event.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\InfluenceMap.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\InfluenceMapDrawer.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\InfluenceMapUtilities.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\LuaFile.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\LuaFileManager.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\LuaFilePtr.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\LuaFileSerializer.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\LuaScriptBindings.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\LuaScriptUtilities.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\MeshUtilities.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\NavigationMesh.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\NavigationUtilities.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\ObfuscatedZip.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\Object.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\ParticleUtilities.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\PhysicsDebugDraw.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\PhysicsUtilities.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\PhysicsWorld.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\PrecompiledHeaders.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\Sandbox.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\SandboxApplication.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\SandboxObject.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\SandboxUtilities.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\SkeletonDebug.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\TriangleBoxIntersection.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\UserInterface.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\UserInterfaceComponent.h" />
+    <ClInclude Include="..\..\..\src\demo_framework\include\UserInterfaceUtilities.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\demo_framework\src\Agent.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\AgentGroup.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\AgentPath.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\AgentUtilities.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\AnimationUtilities.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\BaseApplication.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\Collision.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\DebugDrawer.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\Event.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\InfluenceMap.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\InfluenceMapDrawer.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\InfluenceMapUtilities.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\LuaFile.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\LuaFileManager.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\LuaFilePtr.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\LuaFileSerializer.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\LuaScriptBindings.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\LuaScriptUtilities.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\MeshUtilities.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\NavigationMesh.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\NavigationUtilities.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\ObfuscatedZip.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\Object.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\ParticleUtilities.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\PhysicsDebugDraw.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\PhysicsUtilities.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\PhysicsWorld.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\PrecompiledHeaders.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework\src\Sandbox.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\SandboxApplication.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\SandboxObject.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\SandboxUtilities.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\SkeletonDebug.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\TriangleBoxIntersection.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\UserInterface.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\UserInterfaceComponent.cpp" />
+    <ClCompile Include="..\..\..\src\demo_framework\src\UserInterfaceUtilities.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\src\demo_framework\script\Action.lua" />
+    <None Include="..\..\..\src\demo_framework\script\AgentCommunications.lua" />
+    <None Include="..\..\..\src\demo_framework\script\AgentSenses.lua" />
+    <None Include="..\..\..\src\demo_framework\script\AgentUtilities.lua" />
+    <None Include="..\..\..\src\demo_framework\script\AnimationState.lua" />
+    <None Include="..\..\..\src\demo_framework\script\AnimationStateMachine.lua" />
+    <None Include="..\..\..\src\demo_framework\script\AnimationTransition.lua" />
+    <None Include="..\..\..\src\demo_framework\script\AnimationUtilities.lua" />
+    <None Include="..\..\..\src\demo_framework\script\BehaviorTree.lua" />
+    <None Include="..\..\..\src\demo_framework\script\BehaviorTreeNode.lua" />
+    <None Include="..\..\..\src\demo_framework\script\Blackboard.lua" />
+    <None Include="..\..\..\src\demo_framework\script\DebugUtilities.lua" />
+    <None Include="..\..\..\src\demo_framework\script\DecisionBranch.lua" />
+    <None Include="..\..\..\src\demo_framework\script\DecisionTree.lua" />
+    <None Include="..\..\..\src\demo_framework\script\DirectSoldierAgent.lua" />
+    <None Include="..\..\..\src\demo_framework\script\Evaluator.lua" />
+    <None Include="..\..\..\src\demo_framework\script\FiniteState.lua" />
+    <None Include="..\..\..\src\demo_framework\script\FiniteStateMachine.lua" />
+    <None Include="..\..\..\src\demo_framework\script\FiniteStateTransition.lua" />
+    <None Include="..\..\..\src\demo_framework\script\GUI.lua" />
+    <None Include="..\..\..\src\demo_framework\script\IndirectSoldierAgent.lua" />
+    <None Include="..\..\..\src\demo_framework\script\KnowledgeSource.lua" />
+    <None Include="..\..\..\src\demo_framework\script\Sandbox.lua" />
+    <None Include="..\..\..\src\demo_framework\script\SandboxUtilities.lua" />
+    <None Include="..\..\..\src\demo_framework\script\Soldier.lua" />
+    <None Include="..\..\..\src\demo_framework\script\SoldierActions.lua" />
+    <None Include="..\..\..\src\demo_framework\script\SoldierController.lua" />
+    <None Include="..\..\..\src\demo_framework\script\SoldierEvaluators.lua" />
+    <None Include="..\..\..\src\demo_framework\script\SoldierKnowledge.lua" />
+    <None Include="..\..\..\src\demo_framework\script\SoldierLogic.lua" />
+    <None Include="..\..\..\src\demo_framework\script\SoldierTactics.lua" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

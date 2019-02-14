@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\iphone">
+      <UniqueIdentifier>{7B333B54-6701-2F5A-5095-9F803C020BBF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\linux">
+      <UniqueIdentifier>{88B5A8A5-F475-24DC-BDB0-6D59293069B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\mac">
+      <UniqueIdentifier>{69EEC031-D5A3-3927-5E98-33FECA4C302B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\win32">
+      <UniqueIdentifier>{4BBA6FA6-B77A-EBDC-80B5-345AEC3430B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\extras">
+      <UniqueIdentifier>{D3EF9359-BFA7-D5A6-28AF-AE0214867097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\extras\LIRC">
+      <UniqueIdentifier>{8C390FBE-F8C4-7C82-01D6-FF766DE0D882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\linux">
+      <UniqueIdentifier>{2CDC99B5-9846-4E2C-E184-FFD14D2E2C81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mac">
+      <UniqueIdentifier>{0D1C30A9-79FB-AE44-8213-3A1BEE7115A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\win32">
+      <UniqueIdentifier>{EFE060B6-5B4B-152D-A489-C6D21033F381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\win32\extras">
+      <UniqueIdentifier>{55D7610C-41D0-805E-6A02-66E3565A606A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\win32\extras\WiiMote">
+      <UniqueIdentifier>{E2EE4093-CE13-9013-F75E-75A3E3E28E31}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\ois\include\OIS.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\OISConfig.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\OISEffect.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\OISEvents.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\OISException.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\OISFactoryCreator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\OISForceFeedback.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\OISInputManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\OISInterface.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\OISJoyStick.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\OISKeyboard.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\OISMouse.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\OISMultiTouch.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\OISObject.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\OISPrereqs.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\iphone\iPhoneAccelerometer.h">
+      <Filter>include\iphone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\iphone\iPhoneHelpers.h">
+      <Filter>include\iphone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\iphone\iPhoneInputManager.h">
+      <Filter>include\iphone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\iphone\iPhoneMultiTouch.h">
+      <Filter>include\iphone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\iphone\iPhonePrereqs.h">
+      <Filter>include\iphone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\linux\EventHelpers.h">
+      <Filter>include\linux</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\linux\LinuxForceFeedback.h">
+      <Filter>include\linux</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\linux\LinuxInputManager.h">
+      <Filter>include\linux</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\linux\LinuxJoyStickEvents.h">
+      <Filter>include\linux</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\linux\LinuxKeyboard.h">
+      <Filter>include\linux</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\linux\LinuxMouse.h">
+      <Filter>include\linux</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\linux\LinuxPrereqs.h">
+      <Filter>include\linux</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\mac\MacHIDManager.h">
+      <Filter>include\mac</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\mac\MacHelpers.h">
+      <Filter>include\mac</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\mac\MacInputManager.h">
+      <Filter>include\mac</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\mac\MacJoyStick.h">
+      <Filter>include\mac</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\mac\MacKeyboard.h">
+      <Filter>include\mac</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\mac\MacMouse.h">
+      <Filter>include\mac</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\mac\MacPrereqs.h">
+      <Filter>include\mac</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\win32\Win32ForceFeedback.h">
+      <Filter>include\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\win32\Win32InputManager.h">
+      <Filter>include\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\win32\Win32JoyStick.h">
+      <Filter>include\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\win32\Win32KeyBoard.h">
+      <Filter>include\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\win32\Win32Mouse.h">
+      <Filter>include\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ois\include\win32\Win32Prereqs.h">
+      <Filter>include\win32</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\ois\src\OISEffect.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ois\src\OISException.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ois\src\OISForceFeedback.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ois\src\OISInputManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ois\src\OISJoyStick.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ois\src\OISKeyboard.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ois\src\OISObject.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ois\src\extras\LIRC\OISLIRC.cpp">
+      <Filter>src\extras\LIRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ois\src\extras\LIRC\OISLIRCFactoryCreator.cpp">
+      <Filter>src\extras\LIRC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ois\src\linux\EventHelpers.cpp">
+      <Filter>src\linux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ois\src\linux\LinuxForceFeedback.cpp">
+      <Filter>src\linux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ois\src\linux\LinuxInputManager.cpp">
+      <Filter>src\linux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ois\src\linux\LinuxJoyStickEvents.cpp">
+      <Filter>src\linux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ois\src\linux\LinuxKeyboard.cpp">
+      <Filter>src\linux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ois\src\linux\LinuxMouse.cpp">
+      <Filter>src\linux</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ois\src\mac\MacHIDManager.cpp">
+      <Filter>src\mac</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ois\src\mac\MacHelpers.cpp">
+      <Filter>src\mac</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ois\src\mac\MacInputManager.cpp">
+      <Filter>src\mac</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ois\src\mac\MacJoyStick.cpp">
+      <Filter>src\mac</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ois\src\mac\MacKeyboard.cpp">
+      <Filter>src\mac</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ois\src\mac\MacMouse.cpp">
+      <Filter>src\mac</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ois\src\win32\Win32ForceFeedback.cpp">
+      <Filter>src\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ois\src\win32\Win32InputManager.cpp">
+      <Filter>src\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ois\src\win32\Win32JoyStick.cpp">
+      <Filter>src\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ois\src\win32\Win32KeyBoard.cpp">
+      <Filter>src\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ois\src\win32\Win32Mouse.cpp">
+      <Filter>src\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ois\src\win32\extras\WiiMote\OISWiiMote.cpp">
+      <Filter>src\win32\extras\WiiMote</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ois\src\win32\extras\WiiMote\OISWiiMoteFactoryCreator.cpp">
+      <Filter>src\win32\extras\WiiMote</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ois\src\win32\extras\WiiMote\OISWiiMoteForceFeedback.cpp">
+      <Filter>src\win32\extras\WiiMote</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ois\src\win32\extras\WiiMote\OISWiiMoteRingBuffer.cpp">
+      <Filter>src\win32\extras\WiiMote</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ois\src\win32\extras\WiiMote\hiddevice.cpp">
+      <Filter>src\win32\extras\WiiMote</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ois\src\win32\extras\WiiMote\main.cpp">
+      <Filter>src\win32\extras\WiiMote</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ois\src\win32\extras\WiiMote\wiimote.cpp">
+      <Filter>src\win32\extras\WiiMote</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

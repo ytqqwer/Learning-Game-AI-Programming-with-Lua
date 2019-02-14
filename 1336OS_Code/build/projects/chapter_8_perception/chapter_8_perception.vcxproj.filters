@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="script">
+      <UniqueIdentifier>{BA0F601B-A6B1-8AF1-8F6C-9E457BAD1142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\src\chapter_8_perception\script\AgentCommunications.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\chapter_8_perception\script\AgentSenses.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\chapter_8_perception\script\IndirectSoldierAgent.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\chapter_8_perception\script\Sandbox.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\chapter_8_perception\script\SoldierActions.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\chapter_8_perception\script\SoldierKnowledge.lua">
+      <Filter>script</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\chapter_8_perception\include\DemoPerception.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\chapter_8_perception\src\DemoPerception.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\chapter_8_perception\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

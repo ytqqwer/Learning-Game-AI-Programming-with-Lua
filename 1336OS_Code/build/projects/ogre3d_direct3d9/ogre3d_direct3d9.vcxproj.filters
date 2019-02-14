@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\ogre3d_direct3d9\include\OgreD3D9DepthBuffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_direct3d9\include\OgreD3D9Device.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_direct3d9\include\OgreD3D9DeviceManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_direct3d9\include\OgreD3D9Driver.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_direct3d9\include\OgreD3D9DriverList.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_direct3d9\include\OgreD3D9GpuProgram.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_direct3d9\include\OgreD3D9GpuProgramManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_direct3d9\include\OgreD3D9HLSLProgram.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_direct3d9\include\OgreD3D9HLSLProgramFactory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_direct3d9\include\OgreD3D9HardwareBufferManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_direct3d9\include\OgreD3D9HardwareIndexBuffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_direct3d9\include\OgreD3D9HardwareOcclusionQuery.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_direct3d9\include\OgreD3D9HardwarePixelBuffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_direct3d9\include\OgreD3D9HardwareVertexBuffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_direct3d9\include\OgreD3D9Mappings.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_direct3d9\include\OgreD3D9MultiRenderTarget.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_direct3d9\include\OgreD3D9Plugin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_direct3d9\include\OgreD3D9Prerequisites.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_direct3d9\include\OgreD3D9RenderSystem.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_direct3d9\include\OgreD3D9RenderWindow.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_direct3d9\include\OgreD3D9Resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_direct3d9\include\OgreD3D9ResourceManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_direct3d9\include\OgreD3D9Texture.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_direct3d9\include\OgreD3D9TextureManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_direct3d9\include\OgreD3D9VertexDeclaration.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_direct3d9\include\OgreD3D9VideoMode.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_direct3d9\include\OgreD3D9VideoModeList.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\ogre3d_direct3d9\src\OgreD3D9DepthBuffer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_direct3d9\src\OgreD3D9Device.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_direct3d9\src\OgreD3D9DeviceManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_direct3d9\src\OgreD3D9Driver.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_direct3d9\src\OgreD3D9DriverList.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_direct3d9\src\OgreD3D9EngineDll.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_direct3d9\src\OgreD3D9GpuProgram.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_direct3d9\src\OgreD3D9GpuProgramManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_direct3d9\src\OgreD3D9HLSLProgram.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_direct3d9\src\OgreD3D9HLSLProgramFactory.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_direct3d9\src\OgreD3D9HardwareBufferManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_direct3d9\src\OgreD3D9HardwareIndexBuffer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_direct3d9\src\OgreD3D9HardwareOcclusionQuery.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_direct3d9\src\OgreD3D9HardwarePixelBuffer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_direct3d9\src\OgreD3D9HardwareVertexBuffer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_direct3d9\src\OgreD3D9Mappings.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_direct3d9\src\OgreD3D9MultiRenderTarget.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_direct3d9\src\OgreD3D9Plugin.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_direct3d9\src\OgreD3D9RenderSystem.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_direct3d9\src\OgreD3D9RenderWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_direct3d9\src\OgreD3D9Resource.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_direct3d9\src\OgreD3D9ResourceManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_direct3d9\src\OgreD3D9Texture.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_direct3d9\src\OgreD3D9TextureManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_direct3d9\src\OgreD3D9VertexDeclaration.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_direct3d9\src\OgreD3D9VideoMode.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_direct3d9\src\OgreD3D9VideoModeList.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_direct3d9\src\compile_RenderSystem_Direct3D9_0.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_direct3d9\src\compile_RenderSystem_Direct3D9_1.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

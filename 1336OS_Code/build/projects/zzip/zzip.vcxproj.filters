@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\zzip">
+      <UniqueIdentifier>{0548E669-F1AA-750E-9A30-AEC486724191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\zzip\include\zzip\__debug.h">
+      <Filter>include\zzip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\zzip\include\zzip\__dirent.h">
+      <Filter>include\zzip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\zzip\include\zzip\__hints.h">
+      <Filter>include\zzip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\zzip\include\zzip\__mmap.h">
+      <Filter>include\zzip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\zzip\include\zzip\_config.h">
+      <Filter>include\zzip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\zzip\include\zzip\_msvc.h">
+      <Filter>include\zzip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\zzip\include\zzip\conf.h">
+      <Filter>include\zzip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\zzip\include\zzip\fetch.h">
+      <Filter>include\zzip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\zzip\include\zzip\file.h">
+      <Filter>include\zzip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\zzip\include\zzip\format.h">
+      <Filter>include\zzip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\zzip\include\zzip\info.h">
+      <Filter>include\zzip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\zzip\include\zzip\lib.h">
+      <Filter>include\zzip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\zzip\include\zzip\plugin.h">
+      <Filter>include\zzip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\zzip\include\zzip\stdint.h">
+      <Filter>include\zzip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\zzip\include\zzip\types.h">
+      <Filter>include\zzip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\zzip\include\zzip\zzip.h">
+      <Filter>include\zzip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\zzip\include\zzip\zzip32.h">
+      <Filter>include\zzip</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\zzip\src\dir.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\zzip\src\err.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\zzip\src\fetch.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\zzip\src\file.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\zzip\src\info.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\zzip\src\plugin.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\zzip\src\stat.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\zzip\src\zip.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

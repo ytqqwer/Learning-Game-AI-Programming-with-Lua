@@ -1,32 +1,53 @@
-# Prerequisites
-*.d
+# Ignore thumbnails created by windows
+Thumbs.db
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# Ignore files build by Visual Studio
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
 *.exe
-*.out
-*.app
+*.pdb
+*.aps
+*.vcproj.*.user
+*.vcxproj.user
+*.csproj.user
+*.vspscc
+*_i.c
+*.i
+*.icf
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug/
+[Dd]ebug.win32/
+*.sbr
+*.sdf
+obj/
+[Rr]elease/
+[Rr]elease.win32/
+_ReSharper*/
+[Tt]est[Rr]esult*
+ipch/
+*.opensdf
+*.opendb
+SubmissionInfo
+Generated Files
+AppPackages
+BundleArtifacts
+.vs/
+*.VC.db
+
+# Ignore folder
+!/1336OS_Code/bin
+!/1336OS_Code/build
+!/1336OS_Code/decoda
+/1336OS_Code/lib
+!/1336OS_Code/media
+!/1336OS_Code/premake
+!/1336OS_Code/src/
+!/1336OS_Code/tools/

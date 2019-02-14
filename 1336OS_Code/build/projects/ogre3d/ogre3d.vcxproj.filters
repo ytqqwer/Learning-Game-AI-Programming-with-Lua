@@ -1,0 +1,1450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Samples">
+      <UniqueIdentifier>{AD077E1B-1993-EBDF-22A4-6ED48EAE47E0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Threading">
+      <UniqueIdentifier>{0EA5DA43-7ABB-D8D9-C332-64FB2F88A961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\WIN32">
+      <UniqueIdentifier>{EB951AA4-5756-96DA-2091-DF578C10DBB6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\nedmalloc">
+      <UniqueIdentifier>{E702B730-5319-B5C6-9C90-40E808E6854E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{202B5BA7-8C95-0F1E-D5D3-C0C3417DED72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Threading">
+      <UniqueIdentifier>{B27D869F-1E3E-02D6-E778-4B5353F846B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\WIN32">
+      <UniqueIdentifier>{8FBC0BB4-FB26-C02A-4465-71D0B00E9E7F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\src\ogre3d\resources\ogre.ico">
+      <Filter>resources</Filter>
+    </None>
+    <None Include="..\..\..\src\ogre3d\resources\ogrelogo.bmp">
+      <Filter>resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\ogre3d\include\Ogre.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreAlignedAllocator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreAnimable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreAnimation.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreAnimationState.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreAnimationTrack.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreAny.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreArchive.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreArchiveFactory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreArchiveManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreAtomicObject.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreAtomicScalar.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreAutoParamDataSource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreAxisAlignedBox.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreBillboard.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreBillboardChain.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreBillboardParticleRenderer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreBillboardSet.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreBitwise.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreBlendMode.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreBone.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreBuildSettings.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreCamera.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreCodec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreColourValue.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreCommon.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreCompositionPass.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreCompositionTargetPass.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreCompositionTechnique.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreCompositor.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreCompositorChain.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreCompositorInstance.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreCompositorLogic.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreCompositorManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreConfig.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreConfigDialog.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreConfigFile.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreConfigOptionMap.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreController.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreControllerManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreConvexBody.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreCustomCompositionPass.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreDDSCodec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreDataStream.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreDefaultHardwareBufferManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreDeflate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreDepthBuffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreDistanceLodStrategy.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreDualQuaternion.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreDynLib.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreDynLibManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreETCCodec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreEdgeListBuilder.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreEntity.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreErrorDialog.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreException.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreExternalTextureSource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreExternalTextureSourceManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreFactoryObj.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreFileSystem.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreFileSystemLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreFrameListener.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreFreeImageCodec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreFrustum.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreGpuProgram.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreGpuProgramManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreGpuProgramParams.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreGpuProgramUsage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreHardwareBuffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreHardwareBufferManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreHardwareCounterBuffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreHardwareIndexBuffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreHardwareOcclusionQuery.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreHardwarePixelBuffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreHardwareUniformBuffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreHardwareVertexBuffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreHeaderPrefix.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreHeaderSuffix.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreHighLevelGpuProgram.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreHighLevelGpuProgramManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreImage.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreImageCodec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreInstanceBatch.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreInstanceBatchHW.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreInstanceBatchHW_VTF.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreInstanceBatchShader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreInstanceBatchVTF.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreInstanceManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreInstancedEntity.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreInstancedGeometry.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreIteratorRange.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreIteratorWrapper.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreIteratorWrappers.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreKeyFrame.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreLight.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreLodListener.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreLodStrategy.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreLodStrategyManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreLog.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreLogManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreManualObject.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreMaterial.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreMaterialManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreMaterialSerializer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreMath.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreMatrix3.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreMatrix4.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreMemoryAllocatedObject.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreMemoryAllocatorConfig.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreMemoryNedAlloc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreMemoryNedPooling.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreMemorySTLAllocator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreMemoryStdAlloc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreMemoryTracker.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreMesh.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreMeshFileFormat.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreMeshManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreMeshSerializer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreMeshSerializerImpl.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreMovableObject.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreMovablePlane.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreNameGenerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreNode.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreNumerics.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreOptimisedUtil.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgrePVRTCCodec.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreParticle.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreParticleAffector.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreParticleAffectorFactory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreParticleEmitter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreParticleEmitterCommands.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreParticleEmitterFactory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreParticleIterator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreParticleSystem.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreParticleSystemManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreParticleSystemRenderer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgrePass.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgrePatchMesh.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgrePatchSurface.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgrePixelCountLodStrategy.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgrePixelFormat.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgrePixelFormatDescriptions.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgrePlane.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgrePlaneBoundedVolume.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgrePlatform.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgrePlatformInformation.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgrePlugin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgrePolygon.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgrePose.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgrePredefinedControllers.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgrePrefabFactory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgrePrerequisites.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreProfiler.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreQuaternion.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreRadixSort.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreRay.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreRectangle2D.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreRenderObjectListener.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreRenderOperation.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreRenderQueue.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreRenderQueueInvocation.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreRenderQueueListener.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreRenderQueueSortingGrouping.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreRenderSystem.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreRenderSystemCapabilities.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreRenderSystemCapabilitiesManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreRenderSystemCapabilitiesSerializer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreRenderTarget.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreRenderTargetListener.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreRenderTexture.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreRenderToVertexBuffer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreRenderWindow.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreRenderable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreResource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreResourceBackgroundQueue.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreResourceGroupManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreResourceManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreRibbonTrail.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreRoot.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreRotationalSpline.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreSceneManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreSceneManagerEnumerator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreSceneNode.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreSceneQuery.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreScriptCompiler.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreScriptLexer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreScriptLoader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreScriptParser.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreScriptTranslator.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreSearchOps.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreSerializer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreShadowCameraSetup.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreShadowCameraSetupFocused.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreShadowCameraSetupLiSPSM.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreShadowCameraSetupPSSM.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreShadowCameraSetupPlaneOptimal.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreShadowCaster.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreShadowTextureManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreShadowVolumeExtrudeProgram.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreSharedPtr.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreSimpleRenderable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreSimpleSpline.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreSingleton.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreSkeleton.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreSkeletonFileFormat.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreSkeletonInstance.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreSkeletonManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreSkeletonSerializer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreSphere.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreSpotShadowFadePng.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreStableHeaders.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreStaticFaceGroup.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreStaticGeometry.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreStdHeaders.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreStreamSerialiser.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreString.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreStringConverter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreStringInterface.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreStringVector.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreSubEntity.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreSubMesh.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreTagPoint.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreTangentSpaceCalc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreTechnique.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreTexture.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreTextureManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreTextureUnitState.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreTimer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreUTFString.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreUnifiedHighLevelGpuProgram.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreUserObjectBindings.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreVector2.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreVector3.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreVector4.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreVertexBoneAssignment.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreVertexIndexData.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreViewport.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreWindowEventUtilities.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreWireBoundingBox.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreWorkQueue.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\OgreZip.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\Samples\SdkCameraMan.h">
+      <Filter>include\Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\Samples\SdkTrays.h">
+      <Filter>include\Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\Threading\OgreDefaultWorkQueue.h">
+      <Filter>include\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\Threading\OgreDefaultWorkQueueStandard.h">
+      <Filter>include\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\Threading\OgreDefaultWorkQueueTBB.h">
+      <Filter>include\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\Threading\OgreThreadDefines.h">
+      <Filter>include\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\Threading\OgreThreadDefinesBoost.h">
+      <Filter>include\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\Threading\OgreThreadDefinesNone.h">
+      <Filter>include\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\Threading\OgreThreadDefinesPoco.h">
+      <Filter>include\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\Threading\OgreThreadDefinesTBB.h">
+      <Filter>include\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\Threading\OgreThreadHeaders.h">
+      <Filter>include\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\Threading\OgreThreadHeadersBoost.h">
+      <Filter>include\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\Threading\OgreThreadHeadersPoco.h">
+      <Filter>include\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\Threading\OgreThreadHeadersTBB.h">
+      <Filter>include\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\WIN32\OgreConfigDialogImp.h">
+      <Filter>include\WIN32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\WIN32\OgreConfigDialogImpWinRT.h">
+      <Filter>include\WIN32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\WIN32\OgreErrorDialogImp.h">
+      <Filter>include\WIN32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\WIN32\OgreErrorDialogImpWinRT.h">
+      <Filter>include\WIN32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\WIN32\OgreMinGWSupport.h">
+      <Filter>include\WIN32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\WIN32\OgreTimerImp.h">
+      <Filter>include\WIN32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\asm_math.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\nedmalloc\malloc.c.h">
+      <Filter>include\nedmalloc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d\include\nedmalloc\nedmalloc.h">
+      <Filter>include\nedmalloc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreAlignedAllocator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreAnimable.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreAnimation.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreAnimationState.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreAnimationTrack.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreArchiveManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreAtomicScalar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreAutoParamDataSource.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreAxisAlignedBox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreBillboard.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreBillboardChain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreBillboardParticleRenderer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreBillboardSet.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreBone.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreCamera.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreCodec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreColourValue.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreCommon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreCompositionPass.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreCompositionTargetPass.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreCompositionTechnique.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreCompositor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreCompositorChain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreCompositorInstance.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreCompositorManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreConfigFile.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreControllerManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreConvexBody.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreDDSCodec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreDataStream.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreDefaultHardwareBufferManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreDefaultSceneQueries.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreDeflate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreDepthBuffer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreDistanceLodStrategy.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreDualQuaternion.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreDynLib.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreDynLibManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreETCCodec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreEdgeListBuilder.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreEntity.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreException.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreExternalTextureSource.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreExternalTextureSourceManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreFileSystem.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreFreeImageCodec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreFrustum.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreGpuProgram.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreGpuProgramManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreGpuProgramParams.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreGpuProgramUsage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreHardwareBufferManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreHardwareCounterBuffer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreHardwareIndexBuffer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreHardwareOcclusionQuery.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreHardwarePixelBuffer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreHardwareUniformBuffer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreHardwareVertexBuffer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreHighLevelGpuProgram.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreHighLevelGpuProgramManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreImage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreInstanceBatch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreInstanceBatchHW.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreInstanceBatchHW_VTF.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreInstanceBatchShader.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreInstanceBatchVTF.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreInstanceManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreInstancedEntity.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreInstancedGeometry.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreKeyFrame.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreLight.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreLodStrategy.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreLodStrategyManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreLog.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreLogManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreManualObject.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreMaterial.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreMaterialManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreMaterialSerializer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreMath.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreMatrix3.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreMatrix4.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreMemoryAllocatedObject.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreMemoryNedAlloc.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreMemoryNedPooling.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreMemoryTracker.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreMesh.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreMeshManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreMeshSerializer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreMeshSerializerImpl.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreMovableObject.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreMovablePlane.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreNode.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreNumerics.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreOptimisedUtil.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreOptimisedUtilGeneral.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreOptimisedUtilSSE.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgrePVRTCCodec.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreParticle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreParticleEmitter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreParticleEmitterCommands.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreParticleIterator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreParticleSystem.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreParticleSystemManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgrePass.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgrePatchMesh.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgrePatchSurface.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgrePixelCountLodStrategy.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgrePixelFormat.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgrePlane.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgrePlatformInformation.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgrePolygon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgrePose.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgrePrecompiledHeaders.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgrePredefinedControllers.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgrePrefabFactory.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreProfiler.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreQuaternion.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreRectangle2D.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreRenderQueue.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreRenderQueueInvocation.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreRenderQueueSortingGrouping.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreRenderSystem.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreRenderSystemCapabilities.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreRenderSystemCapabilitiesManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreRenderSystemCapabilitiesSerializer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreRenderTarget.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreRenderTexture.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreRenderToVertexBuffer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreRenderWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreResource.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreResourceBackgroundQueue.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreResourceGroupManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreResourceManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreRibbonTrail.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreRoot.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreRotationSpline.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreSceneManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreSceneManagerEnumerator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreSceneNode.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreSceneQuery.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreScriptCompiler.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreScriptLexer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreScriptParser.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreScriptTranslator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreSearchOps.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreSerializer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreShadowCameraSetup.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreShadowCameraSetupFocused.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreShadowCameraSetupLiSPSM.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreShadowCameraSetupPSSM.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreShadowCameraSetupPlaneOptimal.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreShadowCaster.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreShadowTextureManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreShadowVolumeExtrudeProgram.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreSimpleRenderable.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreSimpleSpline.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreSkeleton.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreSkeletonInstance.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreSkeletonManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreSkeletonSerializer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreStaticGeometry.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreStreamSerialiser.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreString.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreStringConverter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreStringInterface.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreSubEntity.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreSubMesh.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreTagPoint.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreTangentSpaceCalc.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreTechnique.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreTexture.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreTextureManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreTextureUnitState.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreUTFString.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreUnifiedHighLevelGpuProgram.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreUserObjectBindings.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreVector2.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreVector3.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreVector4.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreVertexIndexData.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreViewport.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreWindowEventUtilities.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreWireBoundingBox.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreWorkQueue.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\OgreZip.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\Threading\OgreDefaultWorkQueueStandard.cpp">
+      <Filter>src\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\WIN32\OgreConfigDialog.cpp">
+      <Filter>src\WIN32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\WIN32\OgreConfigDialogWinRT.cpp">
+      <Filter>src\WIN32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\WIN32\OgreErrorDialog.cpp">
+      <Filter>src\WIN32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\WIN32\OgreErrorDialogWinRT.cpp">
+      <Filter>src\WIN32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\WIN32\OgreFileSystemLayer.cpp">
+      <Filter>src\WIN32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\WIN32\OgreMinGWSupport.cpp">
+      <Filter>src\WIN32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\WIN32\OgreOptimisedUtilDirectXMath.cpp">
+      <Filter>src\WIN32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\WIN32\OgreTimer.cpp">
+      <Filter>src\WIN32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\compile_OgreMain_0.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\compile_OgreMain_1.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\compile_OgreMain_2.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\compile_OgreMain_3.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\compile_OgreMain_4.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\compile_OgreMain_5.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\compile_OgreMain_6.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d\src\compile_OgreMain_7.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\..\src\ogre3d\resources\OgreWin32Resources.rc">
+      <Filter>resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

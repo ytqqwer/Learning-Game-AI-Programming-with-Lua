@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\gorilla">
+      <UniqueIdentifier>{42A40940-AE2F-7704-B740-FAF8234BD304}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\gorilla\common">
+      <UniqueIdentifier>{5A2738E2-4621-6134-2F8E-F7441B27C7A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\gorilla\devices">
+      <UniqueIdentifier>{5430845F-C067-CCF6-C971-301A3528F3EF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\common">
+      <UniqueIdentifier>{E5D74254-D18F-84A1-3A97-5DFD266E1F92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\devices">
+      <UniqueIdentifier>{3FF2E412-ABA7-5D08-349C-57DFA050540C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\gorilla_audio\include\gorilla\common\gc_common.h">
+      <Filter>include\gorilla\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gorilla_audio\include\gorilla\common\gc_thread.h">
+      <Filter>include\gorilla\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gorilla_audio\include\gorilla\common\gc_types.h">
+      <Filter>include\gorilla\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gorilla_audio\include\gorilla\devices\ga_openal.h">
+      <Filter>include\gorilla\devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gorilla_audio\include\gorilla\devices\ga_xaudio2.h">
+      <Filter>include\gorilla\devices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gorilla_audio\include\gorilla\ga.h">
+      <Filter>include\gorilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gorilla_audio\include\gorilla\ga_internal.h">
+      <Filter>include\gorilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\gorilla_audio\include\gorilla\gau.h">
+      <Filter>include\gorilla</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\gorilla_audio\src\common\gc_common.c">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gorilla_audio\src\common\gc_thread.c">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gorilla_audio\src\devices\ga_openal.c">
+      <Filter>src\devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gorilla_audio\src\devices\ga_xaudio2.c">
+      <Filter>src\devices</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gorilla_audio\src\ga.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gorilla_audio\src\ga_stream.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\gorilla_audio\src\gau.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

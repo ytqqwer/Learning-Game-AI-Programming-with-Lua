@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F92AEA5B-6541-E8F1-AEB8-73131A0EB979}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ogre3d_procedural</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\..\..\lib\x32\debug\</OutDir>
+    <IntDir>obj\x32\Debug\</IntDir>
+    <TargetName>ogre3d_procedural</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>..\..\..\lib\x64\debug\</OutDir>
+    <IntDir>obj\x64\Debug\</IntDir>
+    <TargetName>ogre3d_procedural</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\..\lib\x32\release\</OutDir>
+    <IntDir>obj\x32\Release\</IntDir>
+    <TargetName>ogre3d_procedural</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>..\..\..\lib\x64\release\</OutDir>
+    <IntDir>obj\x64\Release\</IntDir>
+    <TargetName>ogre3d_procedural</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ProceduralStableHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\src\ogre3d_procedural\include;..\..\..\src\ogre3d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)ogre3d_procedural.pdb</ProgramDataBaseFileName>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/wd"4100" /wd"4127" /wd"4244" /wd"4701" /wd"4267" /Zm198 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\src\ogre3d_procedural\include;..\..\..\src\ogre3d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalOptions>/WX- /MACHINE:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ProceduralStableHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\src\ogre3d_procedural\include;..\..\..\src\ogre3d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)ogre3d_procedural.pdb</ProgramDataBaseFileName>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/wd"4100" /wd"4127" /wd"4244" /wd"4701" /wd"4267" /Zm198 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\src\ogre3d_procedural\include;..\..\..\src\ogre3d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalOptions>/WX- /MACHINE:X64 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ProceduralStableHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\src\ogre3d_procedural\include;..\..\..\src\ogre3d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)ogre3d_procedural.pdb</ProgramDataBaseFileName>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/wd"4100" /wd"4127" /wd"4244" /wd"4701" /wd"4267" /Zm198 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\src\ogre3d_procedural\include;..\..\..\src\ogre3d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalOptions>/WX- /MACHINE:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ProceduralStableHeaders.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\src\ogre3d_procedural\include;..\..\..\src\ogre3d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ProgramDataBaseFileName>$(OutDir)ogre3d_procedural.pdb</ProgramDataBaseFileName>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/wd"4100" /wd"4127" /wd"4244" /wd"4701" /wd"4267" /Zm198 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\src\ogre3d_procedural\include;..\..\..\src\ogre3d\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalOptions>/WX- /MACHINE:X64 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\ogre3d_procedural\include\Procedural.h" />
+    <ClInclude Include="..\..\..\src\ogre3d_procedural\include\ProceduralBoxGenerator.h" />
+    <ClInclude Include="..\..\..\src\ogre3d_procedural\include\ProceduralCapsuleGenerator.h" />
+    <ClInclude Include="..\..\..\src\ogre3d_procedural\include\ProceduralConeGenerator.h" />
+    <ClInclude Include="..\..\..\src\ogre3d_procedural\include\ProceduralCylinderGenerator.h" />
+    <ClInclude Include="..\..\..\src\ogre3d_procedural\include\ProceduralExtruder.h" />
+    <ClInclude Include="..\..\..\src\ogre3d_procedural\include\ProceduralGeometryHelpers.h" />
+    <ClInclude Include="..\..\..\src\ogre3d_procedural\include\ProceduralIcoSphereGenerator.h" />
+    <ClInclude Include="..\..\..\src\ogre3d_procedural\include\ProceduralLathe.h" />
+    <ClInclude Include="..\..\..\src\ogre3d_procedural\include\ProceduralMeshGenerator.h" />
+    <ClInclude Include="..\..\..\src\ogre3d_procedural\include\ProceduralMultiShape.h" />
+    <ClInclude Include="..\..\..\src\ogre3d_procedural\include\ProceduralPath.h" />
+    <ClInclude Include="..\..\..\src\ogre3d_procedural\include\ProceduralPathGenerators.h" />
+    <ClInclude Include="..\..\..\src\ogre3d_procedural\include\ProceduralPlaneGenerator.h" />
+    <ClInclude Include="..\..\..\src\ogre3d_procedural\include\ProceduralPlatform.h" />
+    <ClInclude Include="..\..\..\src\ogre3d_procedural\include\ProceduralRoot.h" />
+    <ClInclude Include="..\..\..\src\ogre3d_procedural\include\ProceduralRoundedBoxGenerator.h" />
+    <ClInclude Include="..\..\..\src\ogre3d_procedural\include\ProceduralShape.h" />
+    <ClInclude Include="..\..\..\src\ogre3d_procedural\include\ProceduralShapeGenerators.h" />
+    <ClInclude Include="..\..\..\src\ogre3d_procedural\include\ProceduralSphereGenerator.h" />
+    <ClInclude Include="..\..\..\src\ogre3d_procedural\include\ProceduralSplines.h" />
+    <ClInclude Include="..\..\..\src\ogre3d_procedural\include\ProceduralStableHeaders.h" />
+    <ClInclude Include="..\..\..\src\ogre3d_procedural\include\ProceduralTorusGenerator.h" />
+    <ClInclude Include="..\..\..\src\ogre3d_procedural\include\ProceduralTorusKnotGenerator.h" />
+    <ClInclude Include="..\..\..\src\ogre3d_procedural\include\ProceduralTrack.h" />
+    <ClInclude Include="..\..\..\src\ogre3d_procedural\include\ProceduralTriangleBuffer.h" />
+    <ClInclude Include="..\..\..\src\ogre3d_procedural\include\ProceduralTriangulator.h" />
+    <ClInclude Include="..\..\..\src\ogre3d_procedural\include\ProceduralTubeGenerator.h" />
+    <ClInclude Include="..\..\..\src\ogre3d_procedural\include\ProceduralUtils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\ogre3d_procedural\src\ProceduralBoxGenerator.cpp" />
+    <ClCompile Include="..\..\..\src\ogre3d_procedural\src\ProceduralCapsuleGenerator.cpp" />
+    <ClCompile Include="..\..\..\src\ogre3d_procedural\src\ProceduralConeGenerator.cpp" />
+    <ClCompile Include="..\..\..\src\ogre3d_procedural\src\ProceduralCylinderGenerator.cpp" />
+    <ClCompile Include="..\..\..\src\ogre3d_procedural\src\ProceduralExtruder.cpp" />
+    <ClCompile Include="..\..\..\src\ogre3d_procedural\src\ProceduralGeometryHelpers.cpp" />
+    <ClCompile Include="..\..\..\src\ogre3d_procedural\src\ProceduralIcoSphereGenerator.cpp" />
+    <ClCompile Include="..\..\..\src\ogre3d_procedural\src\ProceduralLathe.cpp" />
+    <ClCompile Include="..\..\..\src\ogre3d_procedural\src\ProceduralMultiShape.cpp" />
+    <ClCompile Include="..\..\..\src\ogre3d_procedural\src\ProceduralPath.cpp" />
+    <ClCompile Include="..\..\..\src\ogre3d_procedural\src\ProceduralPathGenerators.cpp" />
+    <ClCompile Include="..\..\..\src\ogre3d_procedural\src\ProceduralPlaneGenerator.cpp" />
+    <ClCompile Include="..\..\..\src\ogre3d_procedural\src\ProceduralPrecompiledHeaders.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_procedural\src\ProceduralRoot.cpp" />
+    <ClCompile Include="..\..\..\src\ogre3d_procedural\src\ProceduralRoundedBoxGenerator.cpp" />
+    <ClCompile Include="..\..\..\src\ogre3d_procedural\src\ProceduralShape.cpp" />
+    <ClCompile Include="..\..\..\src\ogre3d_procedural\src\ProceduralShapeGenerators.cpp" />
+    <ClCompile Include="..\..\..\src\ogre3d_procedural\src\ProceduralSphereGenerator.cpp" />
+    <ClCompile Include="..\..\..\src\ogre3d_procedural\src\ProceduralTorusGenerator.cpp" />
+    <ClCompile Include="..\..\..\src\ogre3d_procedural\src\ProceduralTorusKnotGenerator.cpp" />
+    <ClCompile Include="..\..\..\src\ogre3d_procedural\src\ProceduralTrack.cpp" />
+    <ClCompile Include="..\..\..\src\ogre3d_procedural\src\ProceduralTriangulator.cpp" />
+    <ClCompile Include="..\..\..\src\ogre3d_procedural\src\ProceduralTubeGenerator.cpp" />
+    <ClCompile Include="..\..\..\src\ogre3d_procedural\src\ProceduralUtils.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

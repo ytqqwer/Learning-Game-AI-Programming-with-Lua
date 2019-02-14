@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\ogre3d_particlefx\include\OgreAreaEmitter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_particlefx\include\OgreBoxEmitter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_particlefx\include\OgreBoxEmitterFactory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_particlefx\include\OgreColourFaderAffector.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_particlefx\include\OgreColourFaderAffector2.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_particlefx\include\OgreColourFaderAffectorFactory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_particlefx\include\OgreColourFaderAffectorFactory2.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_particlefx\include\OgreColourImageAffector.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_particlefx\include\OgreColourImageAffectorFactory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_particlefx\include\OgreColourInterpolatorAffector.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_particlefx\include\OgreColourInterpolatorAffectorFactory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_particlefx\include\OgreCylinderEmitter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_particlefx\include\OgreCylinderEmitterFactory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_particlefx\include\OgreDeflectorPlaneAffector.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_particlefx\include\OgreDeflectorPlaneAffectorFactory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_particlefx\include\OgreDirectionRandomiserAffector.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_particlefx\include\OgreDirectionRandomiserAffectorFactory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_particlefx\include\OgreEllipsoidEmitter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_particlefx\include\OgreEllipsoidEmitterFactory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_particlefx\include\OgreHollowEllipsoidEmitter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_particlefx\include\OgreHollowEllipsoidEmitterFactory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_particlefx\include\OgreLinearForceAffector.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_particlefx\include\OgreLinearForceAffectorFactory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_particlefx\include\OgreParticleFXPlugin.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_particlefx\include\OgreParticleFXPrerequisites.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_particlefx\include\OgrePointEmitter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_particlefx\include\OgrePointEmitterFactory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_particlefx\include\OgreRingEmitter.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_particlefx\include\OgreRingEmitterFactory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_particlefx\include\OgreRotationAffector.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_particlefx\include\OgreRotationAffectorFactory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_particlefx\include\OgreScaleAffector.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\ogre3d_particlefx\include\OgreScaleAffectorFactory.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\ogre3d_particlefx\src\OgreAreaEmitter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_particlefx\src\OgreBoxEmitter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_particlefx\src\OgreColourFaderAffector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_particlefx\src\OgreColourFaderAffector2.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_particlefx\src\OgreColourImageAffector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_particlefx\src\OgreColourInterpolatorAffector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_particlefx\src\OgreCylinderEmitter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_particlefx\src\OgreDeflectorPlaneAffector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_particlefx\src\OgreDirectionRandomiserAffector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_particlefx\src\OgreEllipsoidEmitter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_particlefx\src\OgreHollowEllipsoidEmitter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_particlefx\src\OgreLinearForceAffector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_particlefx\src\OgreParticleFX.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_particlefx\src\OgreParticleFXPlugin.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_particlefx\src\OgrePointEmitter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_particlefx\src\OgreRingEmitter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_particlefx\src\OgreRotationAffector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_particlefx\src\OgreScaleAffector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_particlefx\src\compile_Plugin_ParticleFX_0.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\ogre3d_particlefx\src\compile_Plugin_ParticleFX_1.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

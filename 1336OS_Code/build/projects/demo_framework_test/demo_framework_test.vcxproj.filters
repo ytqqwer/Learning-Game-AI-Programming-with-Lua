@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="script">
+      <UniqueIdentifier>{BA0F601B-A6B1-8AF1-8F6C-9E457BAD1142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\src\demo_framework_test\script\AgentTest.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework_test\script\AgentUtilitiesTest.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework_test\script\CoreTest.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework_test\script\LuaTest.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework_test\script\SandboxTest.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework_test\script\SandboxUtilitiesTest.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework_test\script\TestRunner.lua">
+      <Filter>script</Filter>
+    </None>
+    <None Include="..\..\..\src\demo_framework_test\script\VectorTest.lua">
+      <Filter>script</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\demo_framework_test\include\DemoTest.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\demo_framework_test\src\DemoTest.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\demo_framework_test\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
